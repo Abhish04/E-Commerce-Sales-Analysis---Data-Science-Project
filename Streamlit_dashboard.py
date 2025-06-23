@@ -29,7 +29,7 @@ if __name__ == "__main__":
 
     st.sidebar.title("WELCOME")
     
-    df = pd.read_excel("OnlineRetail.xlsx")
+    df = pd.read_excel("OnlineRetail100000.xlsx")
     # upload file
     uploaded_file = st.sidebar.file_uploader("CHOOSE YOUR FILE:", type=["csv","xlsx"])
 
