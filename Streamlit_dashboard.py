@@ -6,7 +6,6 @@ import plotly.express as px
 
 # functions 
 
-df = pd.read_excel("OnlineRetail.xlsx")
 # main codes
 # executing main function
 if __name__ == "__main__":
