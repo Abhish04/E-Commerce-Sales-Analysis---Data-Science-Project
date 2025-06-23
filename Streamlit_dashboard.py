@@ -29,7 +29,8 @@ if __name__ == "__main__":
     st.title("E-Commerce Sales")
 
     st.sidebar.title("WELCOME")
-
+    
+    df = pd.read_excel("OnlineRetail.xlsx")
     # upload file
     uploaded_file = st.sidebar.file_uploader("CHOOSE YOUR FILE:", type=["csv","xlsx"])
 
